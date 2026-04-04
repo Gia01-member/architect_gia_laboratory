@@ -3809,6 +3809,7 @@ textarea.form-control-lg {
 }
 
 .nav-link {
+  
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
@@ -3930,6 +3931,7 @@ textarea.form-control-lg {
 }
 
 .navbar {
+  
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
@@ -3956,6 +3958,8 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+/* 背景画像を表示 */
+  background-image: url(https://gia01-member.github.io/architect_gia_laboratory/images/1x/navi_bg.png);
 }
 .navbar > .container,
 .navbar > .container-fluid,
